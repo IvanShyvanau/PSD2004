@@ -1,0 +1,49 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.6rem;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.6rem;
+}
+
+h2 {
+  font-size: 3.8rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.6rem;
+}
+
+h3 {
+  font-size: 1.7rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.6rem;
+}
+/*# sourceMappingURL=base.css.map */

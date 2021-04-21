@@ -1,0 +1,108 @@
+.header {
+  background-color: #EFF0F2;
+  height: 807px;
+}
+
+.header-title {
+  width: 1025px;
+  height: 47px;
+  padding-top: 63px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+.header__logo {
+  width: 114px;
+  height: 47px;
+  border: 5px solid #000;
+  text-align: center;
+  padding-top: 8px;
+  font-weight: 900;
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+
+.logo-o {
+  font-size: 25px;
+  color: #6EEEE4;
+  letter-spacing: 2px;
+}
+
+.header__hamburger {
+  width: 31px;
+  height: 5px;
+  background-color: #000;
+  position: relative;
+  border-radius: 2px;
+  opacity: 0.6;
+}
+
+.header__hamburger::before {
+  content: " ";
+  position: absolute;
+  background-color: #000;
+  width: 31px;
+  height: 5px;
+  border-radius: 2px;
+}
+
+.header__hamburger::before, .header__hamburger::after {
+  content: " ";
+  position: absolute;
+  background-color: #000;
+  width: 31px;
+  height: 5px;
+  border-radius: 2px;
+}
+
+.header__hamburger::before {
+  top: 8px;
+}
+
+.header__hamburger::after {
+  bottom: 8px;
+}
+
+.heder-discription {
+  margin-top: 316px;
+}
+
+.header-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-text-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.color-discription {
+  -webkit-box-shadow: 18px 0px 1px 0px #6EEEE4;
+          box-shadow: 18px 0px 1px 0px #6EEEE4;
+}
+
+.header__button {
+  width: 233px;
+  height: 54px;
+  font-size: 18px;
+  margin-top: 140px;
+  margin-left: 602px;
+}
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,112 @@
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section__title-main {
+  margin-top: 130px;
+  margin-left: 620px;
+}
+
+.section__title-second {
+  margin-top: 17px;
+  margin-left: 441px;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  opacity: 0.6196078431372549;
+}
+
+.section-content {
+  width: 1252px;
+  height: 545px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 146px;
+  margin-left: 170px;
+}
+
+.container {
+  width: 480px;
+  height: 413px;
+}
+
+.content-image {
+  position: absolute;
+  background-image: url(/image/1.png);
+  background-repeat: no-repeat;
+  width: 393px;
+  height: 484px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: 55% 50%;
+  margin-left: 45px;
+  z-index: 5;
+  -webkit-box-shadow: 2px -1px 11px 0px rgba(50, 50, 50, 0.75);
+          box-shadow: 2px -1px 11px 0px rgba(50, 50, 50, 0.75);
+}
+
+.background-font {
+  position: absolute;
+  width: 480px;
+  height: 413px;
+  background-color: #EFF0F2;
+  top: 1180px;
+  z-index: 1;
+  -webkit-box-shadow: 2px -1px 11px 0px rgba(50, 50, 50, 0.75);
+          box-shadow: 2px -1px 11px 0px rgba(50, 50, 50, 0.75);
+}
+
+.slide {
+  margin-top: 500px;
+  margin-left: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dote {
+  width: 11px;
+  height: 11px;
+  background-color: #D0D0D0;
+  border-radius: 4px;
+  margin-left: 2px;
+}
+
+.dote_colored {
+  background-color: #71F6EB;
+}
+
+.content-text {
+  width: 474px;
+  margin-left: 156px;
+}
+
+.text-title {
+  text-transform: uppercase;
+  margin: 0;
+  opacity: 0.7411764705882353;
+}
+
+.text {
+  margin-top: 31px;
+  line-height: 1.7;
+  opacity: 0.7411764705882353;
+}
+
+.second-paragraf {
+  margin-top: 38px;
+  opacity: 0.7411764705882353;
+}
+
+.text2 {
+  margin-top: 27px;
+  line-height: 1.7;
+  opacity: 0.7411764705882353;
+}
+/*# sourceMappingURL=section.css.map */
