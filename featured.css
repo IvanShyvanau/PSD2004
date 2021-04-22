@@ -1,0 +1,21 @@
+.featured-title {
+  text-transform: uppercase;
+}
+
+.featured-contant {
+  width: 1141px;
+  height: 731px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contant-image {
+  width: 371px;
+  height: 360px;
+  background-size: 371px;
+  overflow: hidden;
+}
+/*# sourceMappingURL=featured.css.map */
