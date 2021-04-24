@@ -2,7 +2,7 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-h3 {
+h3, .boxes-title {
   font-family: 'Merriweather', serif;
 }
 
@@ -44,6 +44,13 @@ h3 {
   font-size: 1.7rem;
   font-style: normal;
   font-weight: normal;
+  line-height: 1.6rem;
+}
+
+.boxes-title {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: bold;
   line-height: 1.6rem;
 }
 /*# sourceMappingURL=base.css.map */
