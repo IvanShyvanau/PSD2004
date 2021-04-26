@@ -1,0 +1,12 @@
+.info_section {
+  margin-top: 117px;
+}
+
+.info__title-second {
+  text-align: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-left: 500px;
+}
+/*# sourceMappingURL=info.css.map */
