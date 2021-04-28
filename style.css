@@ -1217,7 +1217,7 @@ h1, h2 {
   margin-left: 0;
 }
 
-.content-text {
+.info-content-text {
   width: 667px;
   height: 363px;
   background-color: #EAEBED;
@@ -1284,5 +1284,18 @@ h1, h2 {
   background-image: url(/image/info/4.png);
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.baner {
+  margin-left: 15px;
+  padding-bottom: 100px;
+}
+
+.image-baner {
+  width: 1190px;
+  height: 172px;
+  margin-left: 160px;
+  background-color: crimson;
+  margin-top: 100px;
 }
 /*# sourceMappingURL=style.css.map */
