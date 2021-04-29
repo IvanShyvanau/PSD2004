@@ -1,0 +1,123 @@
+@import "mixins.scss";
+@import "placeholder.scss";
+
+.form{
+  width: 100%;
+  height: 796px;
+  background-image: url(/image/form/1.png);
+  opacity: 0.65;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  background-size: cover;
+  background-position: center; 
+  overflow: hidden;
+}
+
+
+
+.container{
+  display: flex; 
+  width: 100%;
+}
+
+
+.inputs{
+  width: 615px;
+  height: 461px;
+  background-color: #021623;
+  opacity: 1;
+  margin-left: 150px;
+}
+
+#name{
+  width: 551px;
+  height: 50px;
+  background:none;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+  opacity: 1;
+  margin-left: 36px;
+  margin-top: 30px;
+}
+
+
+
+#subject{
+  width: 551px;
+  height: 50px;
+  background:none;
+  border: none;
+  margin-left: 36px;
+  border-bottom: 1px solid #FFFFFF;
+  color: #FFFFFF;
+}
+
+#mail{
+  width: 551px;
+  height: 50px;
+  background:none;
+  border: none;
+  margin-left: 36px;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+#message{
+  width: 551px;
+  height: 150px;
+  background:none;
+  border: none;
+  margin-left: 36px;
+  resize: none;
+  border-bottom: 1px solid #FFFFFF;
+  margin-top: 20px;
+}
+
+.button{
+  width: 254px;
+  height: 54px;
+  background-color: #6EEEE4;
+  border: none;
+  color: #000000;
+  @extend %font-title-main;
+  @include font($height: 1.8rem, $size: 1.8rem, $weigh: normal);
+  margin-left: 31px;
+  border-radius: 3px;
+  margin-top: 36px;
+}
+
+.adress{
+  width: 501px;
+  height: 461px;
+  background-color: #021623;
+  margin-left: 56px;
+}
+
+.title-adress{
+  width: 213px;
+  height: 159px;
+  margin-left: 31px;
+  margin-top: 37px;
+}
+
+.text-adress{
+  width: 213px;
+  height: 159px;
+  text-align: left;
+  color:#FFFFFF;
+  @extend %font-text;
+  @include font($height: 1.8rem, $size: 1.5rem, $weigh: normal);
+  
+}
+
+.map-adress{
+  width: 501px;
+  height: 461px;
+}
+
+.image-map{
+  background-image: url(/image/form/2.png);
+  width: 455px;
+  height: 224px;
+  margin-top: 24px;
+  margin-left: 23px;
+}

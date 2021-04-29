@@ -346,7 +346,7 @@ template {
           box-sizing: border-box;
 }
 
-body {
+body, .text-adress, .fotter-text, .fotter-end {
   font-family: 'Raleway', sans-serif;
 }
 
@@ -354,7 +354,7 @@ h3, .boxes-title {
   font-family: 'Merriweather', serif;
 }
 
-h1, h2 {
+h1, h2, .button {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -601,7 +601,6 @@ h3 {
 }
 
 .content-text {
-  width: 474px;
   margin-left: 156px;
 }
 
@@ -694,7 +693,7 @@ h3 {
   background-position: center;
 }
 
-body {
+body, .text-adress, .fotter-text, .fotter-end {
   font-family: 'Raleway', sans-serif;
 }
 
@@ -702,7 +701,7 @@ h3, .boxes-title {
   font-family: 'Merriweather', serif;
 }
 
-h1, h2 {
+h1, h2, .button {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -1055,7 +1054,7 @@ h1, h2 {
   margin-left: 73px;
 }
 
-body {
+body, .text-adress, .fotter-text, .fotter-end {
   font-family: 'Raleway', sans-serif;
 }
 
@@ -1063,7 +1062,7 @@ h3, .boxes-title {
   font-family: 'Merriweather', serif;
 }
 
-h1, h2 {
+h1, h2, .button {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -1297,5 +1296,198 @@ h1, h2 {
   margin-left: 160px;
   background-color: crimson;
   margin-top: 100px;
+}
+
+body, .text-adress, .fotter-text, .fotter-end {
+  font-family: 'Raleway', sans-serif;
+}
+
+h3, .boxes-title {
+  font-family: 'Merriweather', serif;
+}
+
+h1, h2, .button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form {
+  width: 100%;
+  height: 796px;
+  background-image: url(/image/form/1.png);
+  opacity: 0.65;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.inputs {
+  width: 615px;
+  height: 461px;
+  background-color: #021623;
+  opacity: 1;
+  margin-left: 150px;
+}
+
+#name {
+  width: 551px;
+  height: 50px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+  opacity: 1;
+  margin-left: 36px;
+  margin-top: 30px;
+}
+
+#subject {
+  width: 551px;
+  height: 50px;
+  background: none;
+  border: none;
+  margin-left: 36px;
+  border-bottom: 1px solid #FFFFFF;
+  color: #FFFFFF;
+}
+
+#mail {
+  width: 551px;
+  height: 50px;
+  background: none;
+  border: none;
+  margin-left: 36px;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+#message {
+  width: 551px;
+  height: 150px;
+  background: none;
+  border: none;
+  margin-left: 36px;
+  resize: none;
+  border-bottom: 1px solid #FFFFFF;
+  margin-top: 20px;
+}
+
+.button {
+  width: 254px;
+  height: 54px;
+  background-color: #6EEEE4;
+  border: none;
+  color: #000000;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.8rem;
+  margin-left: 31px;
+  border-radius: 3px;
+  margin-top: 36px;
+}
+
+.adress {
+  width: 501px;
+  height: 461px;
+  background-color: #021623;
+  margin-left: 56px;
+}
+
+.title-adress {
+  width: 213px;
+  height: 159px;
+  margin-left: 31px;
+  margin-top: 37px;
+}
+
+.text-adress {
+  width: 213px;
+  height: 159px;
+  text-align: left;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.8rem;
+}
+
+.map-adress {
+  width: 501px;
+  height: 461px;
+}
+
+.image-map {
+  background-image: url(/image/form/2.png);
+  width: 455px;
+  height: 224px;
+  margin-top: 24px;
+  margin-left: 23px;
+}
+
+body, .text-adress, .fotter-text, .fotter-end {
+  font-family: 'Raleway', sans-serif;
+}
+
+h3, .boxes-title {
+  font-family: 'Merriweather', serif;
+}
+
+h1, h2, .button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer {
+  width: 100%;
+  height: 317px;
+  background-color: #262B2E;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.fotter-text {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.6rem;
+  color: #FFFFFF;
+  margin-top: 94px;
+  text-align: center;
+}
+
+.fotter-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 18px;
+  margin-left: 650px;
+}
+
+.footter-link {
+  width: 47px;
+  height: 41px;
+  background-color: #8D8D8D;
+  margin-left: 6px;
+}
+
+.fotter-end {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.6rem;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 43px;
 }
 /*# sourceMappingURL=style.css.map */

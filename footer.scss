@@ -1,0 +1,42 @@
+@import "mixins.scss";
+@import "placeholder.scss";
+
+
+.footer{
+  width: 100%;
+  height: 317px;
+  background-color: #262B2E;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.fotter-text{
+  @extend %font-text;
+  @include font($height: 1.6rem, $size: 1.6rem, $weigh: normal);
+  color: #FFFFFF;
+  margin-top: 94px;
+  text-align: center;
+}
+
+.fotter-links{
+  display: flex;
+  margin-top: 18px; 
+  margin-left: 650px;
+
+}
+
+.footter-link{
+width: 47px;
+height: 41px;
+background-color: #8D8D8D;
+margin-left: 6px;
+}
+
+.fotter-end{
+  @extend %font-text;
+  @include font($height: 1.6rem, $size: 1.6rem, $weigh: normal);
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 43px;
+}

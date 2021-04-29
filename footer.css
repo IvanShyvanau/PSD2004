@@ -1,0 +1,52 @@
+.fotter-text, .fotter-end {
+  font-family: 'Raleway', sans-serif;
+}
+
+.footer {
+  width: 100%;
+  height: 317px;
+  background-color: #262B2E;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.fotter-text {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.6rem;
+  color: #FFFFFF;
+  margin-top: 94px;
+  text-align: center;
+}
+
+.fotter-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 18px;
+  margin-left: 650px;
+}
+
+.footter-link {
+  width: 47px;
+  height: 41px;
+  background-color: #8D8D8D;
+  margin-left: 6px;
+}
+
+.fotter-end {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.6rem;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 43px;
+}
+/*# sourceMappingURL=footer.css.map */
